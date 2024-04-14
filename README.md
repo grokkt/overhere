@@ -1,4 +1,4 @@
-# overhere.nvim
+# overhere
 
 Make your cursor say "hey I'm over here" when switching between buffers/windows
 
