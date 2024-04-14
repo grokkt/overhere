@@ -1,17 +1,26 @@
 # overhere.nvim
 
-A basic plugin that points you to where your cursor is when switching windows/buffers
+Make your cursor say "hey I'm over here" when switching between buffers/windows
 
-- image
+![overhere gif](overhere_gif.gif)
 
-### Installation
+### Installation with [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
-require('grokkt/overhere').overhere({})
+  {
+    'grokkt/overhere',
+    config = function()
+      require('overhere').overhere({
+        hl_opts = {
+          bg = "#FF0000"
+        }
+      })
+    end
+  },
 ```
 
 ### Example / default options
 ```lua
-require('grokkt/overhere').overhere({
+require('overhere').overhere({
    hl_opts = {
         fg = nil, -- or hex color string ex "#FF0000"
         bg = "#004a3c",
