@@ -9,7 +9,7 @@ Make your cursor say "hey I'm over here" when switching between buffers/windows
   {
     'grokkt/overhere',
     config = function()
-      require('overhere').overhere({
+      require('overhere').setup({
         hl_opts = {
           bg = "#FF0000"
         }
@@ -20,7 +20,7 @@ Make your cursor say "hey I'm over here" when switching between buffers/windows
 
 ### Example / default options
 ```lua
-require('overhere').overhere({
+require('overhere').setup({
    hl_opts = {
         fg = nil, -- or hex color string ex "#FF0000"
         bg = "#004a3c",
