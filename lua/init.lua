@@ -41,13 +41,13 @@ end
 --
 -- Ex usage:
 -- ```lua
--- require('overhere.nvim').setup({
+-- require('overhere.nvim').overhere({
 --    hl_opts = { bg = "#FF0000" },
 --    buf_enter = false,
 --    clear_after_ms = 1000
 -- })
 -- ```
-function M.setup(opts)
+function M.overhere(opts)
     if opts == nil then opts = {} end
     set_defaults(opts, opts_default)
 
