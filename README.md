@@ -18,7 +18,7 @@ Make your cursor say "hey I'm over here" when switching between buffers/windows
   },
 ```
 
-### Example / default options
+### Example/default options
 ```lua
 require('overhere').overhere({
    hl_opts = {

@@ -39,7 +39,7 @@ end
 --     - buf_win_enter (optional) | boolean; enable overhere on 'BufWinEnter' event; default true
 --     - clear_after_ms (optional) | number; number of milliseconds after overhere hl should be cleared; default 250
 --
--- Ex usage:
+-- Example usage:
 -- ```lua
 -- require('overhere.nvim').overhere({
 --    hl_opts = { bg = "#FF0000" },
